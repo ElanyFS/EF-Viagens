@@ -21,7 +21,7 @@
 
                         <div class="input-group w50">
                             <label for="">Ida</label>
-                            <input type="date" name="ida">
+                            <input type="date" name="ida" placeholder="dd/mm/yyyy">
                         </div>
 
                         <div class="input-group w50">

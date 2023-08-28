@@ -11,6 +11,7 @@ try {
     $adulto = $_POST['adulto'];
     $crianca = $_POST['crianca'];
     $classe = $_POST['classe'];
+    $preco = "1.500,35";
 
     $nome = $_POST['nome'];
     $cpf = $_POST['cpf'];
@@ -24,7 +25,7 @@ try {
     $uf = $_POST['uf'];
 
     $client = new Client($nome, $cpf, $telefone, $email, $cep, $endereco, $numero, $bairro, $cidade, $uf);
-    $trip = new Trip($origem, $destino, $ida, $volta, $adulto, $crianca, $classe);
+    $trip = new Trip($origem, $destino, $ida, $volta, $adulto, $crianca, $classe, $preco);
 } catch (Exception $error) {
     echo "<script> alert('" . $error->getMessage() . "') </script>";
 

@@ -1,6 +1,7 @@
 <?php
 include_once('../includes/header.php');
 require_once('../Controller/ShoppingController.php');
+require_once('../Service/formatter.php');
 ?>
 
 <div class="content-info">
@@ -15,18 +16,20 @@ require_once('../Controller/ShoppingController.php');
                 <th>Ida</th>
                 <th>Volta</th>
                 <th>Tipo</th>
+                <th>Cep</th>
                 <th>Preço</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td><?php echo $client->nome ?></td>
-                <td><?php echo $client->cpf ?></td>
-                <td><?php echo $client->telefone ?></td>
-                <td><?php echo $trip->origem ?></td>
-                <td><?php echo $trip->volta ?></td>
+                <td><?php echo formatterCpf($client->cpf) ?></td>
+                <td><?php echo formatterTel($client->telefone) ?></td>
+                <td><?php echo formatterDate($trip->ida) ?></td>
+                <td><?php echo formatterDate($trip->volta) ?></td>
                 <td><?php echo $trip->classe ?></td>
-                <td></td>
+                <td><?php echo formatterCep($client->cep)?></td>
+                <td><?php echo formatterPreco($trip->preco) ?></td>
             </tr>
         </tbody>
 

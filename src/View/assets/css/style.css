@@ -202,9 +202,10 @@ tr:nth-child(even) {
   }
 
   .content-info table {
-    width: 99%;
+    width: 30%;
   }
 }
+
 
 /* The Modal (background) */
 .modal {
