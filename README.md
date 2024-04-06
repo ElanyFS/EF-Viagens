@@ -1,6 +1,6 @@
 # Projeto Agência de Viagens
 
-![](src/View/assets/img/image.png)
+<img src="src/View/assets/img/image.png" width="300" height="200">
 
 ## 📖 Descrição
 
@@ -8,17 +8,14 @@ Esta aplicação é um site para compra de passagens. O projeto foi desenvolvido
 
 ## 🛠️ Tecnologias
 
-<img src="imagens/icons/html.png" width="50" height="50">
+<img src="src/View/assets/img/html.png" width="50" height="50">
 <img src="imagens/icons/css.png" width="50" height="50">
-<img src="imagens/icons/js.png" width="50" height=" 50">
+<img src="imagens/icons/php.png" width="50" height=" 50">
 
 ## ⌛ Inicialização
 
-Esse projeto foi desenvolvido em ambiente Windows, utilizando a ferramenta VSCode e as tecnologias citadas anteriormente. 
-A preparação do ambiente consiste em instalar a ferramenta, instalar e habilitar a extensão 'p5.vscode'.
+Esse projeto foi desenvolvido em ambiente Windows, utilizando a ferramenta VSCode e as tecnologias citadas anteriormente.
 
 ## 🌎 Implementações Futuras
 
-📌 Adicionar quantidade de vidas
-
-🔗: jogo-freeway-rosy.vercel.app
+📌 Implementar banco de dados
