@@ -9,8 +9,8 @@ Esta aplicação é um site para compra de passagens. O projeto foi desenvolvido
 ## 🛠️ Tecnologias
 
 <img src="src/View/assets/img/html.png" width="50" height="50">
-<img src="imagens/icons/css.png" width="50" height="50">
-<img src="imagens/icons/php.png" width="50" height=" 50">
+<img src="src/View/assets/img/css.png" width="50" height="50">
+<img src="src/View/assets/img/php.png" width="50" height=" 50">
 
 ## ⌛ Inicialização
 
