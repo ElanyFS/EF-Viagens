@@ -176,9 +176,39 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.rTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.rTable th, .rTable td {
+  padding: 8px;
+  border: 1px solid #dddddd;
+  text-align: left;
+  white-space: nowrap;
+}
+
 /* Responsividade */
 
 @media (max-width: 930px) {
+
+  .rTable th, .rTable td {
+    font-size: 14px; /* Diminuindo o tamanho da fonte para caber em telas menores */
+  }
+
+  .table-wrapper {
+    overflow-x: auto;
+    width: 100%; /* Garantindo que a tabela ocupe toda a largura */
+  }
+
+  .rTable th, .rTable td {
+    font-size: 14px; /* Diminuindo o tamanho da fonte para caber em telas menores */
+  }
+
   .container {
     width: 100%;
   }
@@ -206,6 +236,30 @@ tr:nth-child(even) {
   }
 }
 
+
+@media (max-width: 224px) {
+  .passagensCompradas{
+    display: none;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 430px) {
+  .content-img{
+    display: none;
+  }
+  .content{
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1024px) {
+  .content-img{
+    display: none;
+  }
+  .content{
+    width: 100%;
+  }
+}
 
 /* The Modal (background) */
 .modal {
