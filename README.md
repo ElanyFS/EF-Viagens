@@ -1,6 +1,6 @@
 # Projeto Agência de Viagens
 
-<img src="src/View/assets/img/image.png" width="300" height="200">
+<img src="src/View/assets/img/image.png" width="1000" height="400">
 
 ## 📖 Descrição
 
